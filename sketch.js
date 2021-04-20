@@ -30,7 +30,7 @@ function draw() {
   textSize(25);
   stroke("black");
   fill ("red");
-  text ("Press space,up,left and right arrows to follow the girl",10,50);
+  text ("Press space,up,left and right arrows to follow the girl",480,50);
 
   if (keyDown("space") &&  girl.y !== 500) {
     girl.velocityY = -5;
