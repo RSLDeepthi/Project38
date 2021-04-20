@@ -10,7 +10,7 @@ girlImg = loadImage("girldancing.png")
 function setup() {
   createCanvas(1600,750);
 
-  bck = createSprite(400,225,800,450);
+  bck = createSprite(800,225,800,450);
   bck.addImage(stageImg);
   bck.scale = 3;
 
